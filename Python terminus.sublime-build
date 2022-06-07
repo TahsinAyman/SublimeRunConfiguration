@@ -1,0 +1,13 @@
+{
+  // "target": "terminus_exec",
+  // "cancel": "terminus_cancel_build",
+
+  // "focus": true,
+
+  // "shell_cmd": "start cmd /k \"python -u \"$dir\" & pause & exit\"",
+  "shell_cmd": "start cmd /k \"cd $file_path & python $file & pause & exit\"",
+  // "env": {
+  // "PATH": "$PATH;D:\\Python\\Python310"
+  // }
+
+}

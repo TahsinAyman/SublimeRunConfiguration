@@ -1,0 +1,12 @@
+    {
+        "keys": ["alt+r"], "command": "build"
+    },
+    {
+       "keys": ["alt+t"],
+       "command": "terminus_open",
+       "args" : {
+           "cmd": "cmd.exe",
+           "cwd": "${file_path:${folder}}",
+           "panel_name": "Terminus"
+       }
+    }

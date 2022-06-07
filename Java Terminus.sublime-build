@@ -1,0 +1,3 @@
+{
+  "shell_cmd": "start cmd /k \"cd $file_path & javac $file & java $file_name & echo ◙ > con & pause & exit\"",
+}
